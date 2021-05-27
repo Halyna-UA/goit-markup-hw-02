@@ -8,8 +8,7 @@
 
 body {
   color: var(--primery-text-color);
-  font-family: sans-serif;
-  font-family: "Roboto", "Ralwey";
+  font-family: "Roboto", "Ralwey", sans-serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.03em;
@@ -57,7 +56,7 @@ h3 {
 .link:active {
   color: var(--accent-color);
 }
-.link .current {
+.link.current {
   color: var(--accent-color);
 }
 .auth-nav {
@@ -115,44 +114,50 @@ h3 {
   line-height: 1, 187;
   color: var(--primery-text-color);
 }
-.container.address {
+.footer{
   text-decoration: none;
   font-size: 14px;
   line-height: 1, 714;
-  background-color: rgba(47, 48, 58, 1);
+  background-color: rgba(47, 48, 58, 1); 
+}
+.logo-footer{
+  font-family: "Ralwey";
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 192;
+  text-decoration: none;
   color: var(--primery-br-color);
 }
-.list.address li {
-  color: var(--primery-text-color);
+
+.address-list{
+ font-style: normal;
+ color: var(--primery-br-color);
 }
+
 
 /*сторінка портфоліо*/
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-.site-nav .link .current {
-  color: var(--accent-color);
-}
+
 /*секція навігаційних кнопок*/
 
-.button-list .click {
+.list.button li {
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 625;
   color: var(--accent-color);
   text-decoration-color: var(--primery-br-color);
+  cursor:pointer;
 }
-.button-list .click:hover .button-list .click:focus {
-  color: var(--accent-color);
+.list.button:hover,
+.list.buttonk:focus {
+color: var(--accent-color);
 }
-.section-list .prupose {
+.title .lead {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   color: var(--title-text-color);
 }
-.section-list .disc {
+.text.disc {
   font-size: 16px;
   line-height: 1, 875;
   color: var(--primery-text-color);
