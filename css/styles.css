@@ -83,15 +83,16 @@ h3 {
   background-color: var(--same-section-color);
   width: 1200;
   height: 600;
-}
+  }
 h1 {
-  color: solid var(--primery-br-color);
+  color: #fff;
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1, 363;
   text-transform: uppercase;
   text-align: center;
-}
+  }
 
 .button-hero {
   color: var(--primery-br-color);
